@@ -1,0 +1,76 @@
+.workout
+{
+    -fx-background-color: #2980b9;
+}
+.bmi
+{
+    -fx-background-color: #c0392b;
+}
+.title
+{
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+}
+
+/* Buttons */
+.btn
+{
+    -fx-font-size: 12;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-padding: 10 30 10 30;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 2;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-background-insets: 0;
+}
+.btn-red
+{
+    -fx-background-color: #c0392b;
+}
+.btn-red:hover
+{
+    -fx-background-color: #a93226;
+}
+.btn-blue
+{
+    -fx-background-color: #2980b9;
+}
+.btn-blue:hover
+{
+    -fx-background-color: #21618c;
+}
+
+/* Text field */
+.text-field
+{
+    -fx-border-color: #ffffff;
+    -fx-border-width: 1;
+
+}
+.text-field:focused
+{
+    -fx-background-insets: 0;
+}
+
+/* Input text */
+.input-text-l
+{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #4C4A48;
+    -fx-padding: 5;
+    -fx-background-radius: 5 0 0 5;
+}
+.input-text-r
+{
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #4C4A48;
+    -fx-padding: 5;
+    -fx-background-radius: 0 5 5 0;
+}
+
+.bmi-result
+{
+    -fx-background-color: transparent;
+}
